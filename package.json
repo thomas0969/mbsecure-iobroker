@@ -1,0 +1,16 @@
+{
+  "name": "mbsecure-iobroker",
+  "version": "2.1.2",
+  "private": true,
+  "description": "MB-Secure Service Interface integration for ioBroker with responsive VIS2 dashboard",
+  "scripts": {
+    "check": "npm run check:mirror && npm run check:dashboard && npm run check:secrets",
+    "check:mirror": "node --check src/MBSecure_AutoMirror.js",
+    "check:dashboard": "node --check src/MBSecure_Dashboard.js",
+    "check:secrets": "node scripts/security-check.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}
