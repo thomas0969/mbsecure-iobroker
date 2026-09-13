@@ -1,0 +1,11 @@
+node_modules/
+*.log
+*.zip
+*.bak
+*.tmp
+.DS_Store
+Thumbs.db
+.env
+.env.*
+secrets.*
+*-secrets.json
